@@ -11,3 +11,7 @@ Acceder a SonarQube con un navegador a http://localhost:9000. El usuario y la co
 ---
 
 Tags: devops, docker, sonarqube
+
+--- error memory windows docker
+wsl -d docker-desktop
+sysctl -w vm.max_map_count=262144
